@@ -1,0 +1,66 @@
+Proposed algorithm config: runs=5 generations=2000 pop=300 elite=60 mutationRate=0.05 crossoverRate=0.8 essentialRate=0.1 sa.iterations=100 sa.T0=0.025 sa.gamma=0.99 timeBudgetMin=4 (per single run) stagnationLimit=150 reheatFraction=0.5 restartFraction=0.1
+Thetas swept: 0.5 0.7 0.85 1.5 
+
+=== st70 (n=70) ===
+  [st70 theta=0.5] run 1/5: best=680 elapsed=18.4305s gens=2000/2000
+  [st70 theta=0.5] run 2/5: best=675 elapsed=17.8102s gens=2000/2000
+  [st70 theta=0.5] run 3/5: best=675 elapsed=19.6284s gens=2000/2000
+  [st70 theta=0.5] run 4/5: best=675 elapsed=19.8691s gens=2000/2000
+  [st70 theta=0.5] run 5/5: best=680 elapsed=19.7468s gens=2000/2000
+  theta=0.5 best=675 mean=677 stdev=2.73861 avgTime(ms)=19097 avgBestGen=108.6/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/95.7176% avgMergeFallbacks/gen=0.0046 avgStagnationTriggers=12 invalidTours=0/5
+  [st70 theta=0.7] run 1/5: best=680 elapsed=17.2479s gens=2000/2000
+  [st70 theta=0.7] run 2/5: best=675 elapsed=17.482s gens=2000/2000
+  [st70 theta=0.7] run 3/5: best=680 elapsed=20.0272s gens=2000/2000
+  [st70 theta=0.7] run 4/5: best=675 elapsed=18.8993s gens=2000/2000
+  [st70 theta=0.7] run 5/5: best=680 elapsed=20.0271s gens=2000/2000
+  theta=0.7 best=675 mean=678 stdev=2.73861 avgTime(ms)=18736.7 avgBestGen=68/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/80.4064% avgMergeFallbacks/gen=0.0059 avgStagnationTriggers=12.2 invalidTours=0/5
+  [st70 theta=0.85] run 1/5: best=675 elapsed=20.8788s gens=2000/2000
+  [st70 theta=0.85] run 2/5: best=680 elapsed=23.8081s gens=2000/2000
+  [st70 theta=0.85] run 3/5: best=675 elapsed=19.3861s gens=2000/2000
+  [st70 theta=0.85] run 4/5: best=675 elapsed=19.4381s gens=2000/2000
+  [st70 theta=0.85] run 5/5: best=682 elapsed=14.2463s gens=2000/2000
+  theta=0.85 best=675 mean=677.4 stdev=3.36155 avgTime(ms)=19551.5 avgBestGen=82.8/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/28.4825% avgMergeFallbacks/gen=0.0042 avgStagnationTriggers=12 invalidTours=0/5
+  [st70 theta=1.5] run 1/5: best=675 elapsed=18.3147s gens=2000/2000
+  [st70 theta=1.5] run 2/5: best=680 elapsed=19.7496s gens=2000/2000
+  [st70 theta=1.5] run 3/5: best=680 elapsed=16.8544s gens=2000/2000
+  [st70 theta=1.5] run 4/5: best=680 elapsed=19.167s gens=2000/2000
+  [st70 theta=1.5] run 5/5: best=680 elapsed=20.0518s gens=2000/2000
+  theta=1.5 best=675 mean=679 stdev=2.23607 avgTime(ms)=18827.5 avgBestGen=75/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/0% avgMergeFallbacks/gen=0.0033 avgStagnationTriggers=12.2 invalidTours=0/5
+
+=== kroA100 (n=100) ===
+  [kroA100 theta=0.5] run 1/5: best=21282 elapsed=18.2954s gens=2000/2000
+  [kroA100 theta=0.5] run 2/5: best=21282 elapsed=19.2264s gens=2000/2000
+  [kroA100 theta=0.5] run 3/5: best=21282 elapsed=18.9437s gens=2000/2000
+  [kroA100 theta=0.5] run 4/5: best=21282 elapsed=19.2875s gens=2000/2000
+  [kroA100 theta=0.5] run 5/5: best=21282 elapsed=19.3427s gens=2000/2000
+  theta=0.5 best=21282 mean=21282 stdev=0 avgTime(ms)=19019.1 avgBestGen=172/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/98.9834% avgMergeFallbacks/gen=0.0104 avgStagnationTriggers=11.4 invalidTours=0/5
+  [kroA100 theta=0.7] run 1/5: best=21282 elapsed=19.534s gens=2000/2000
+  [kroA100 theta=0.7] run 2/5: best=21282 elapsed=19.8915s gens=2000/2000
+  [kroA100 theta=0.7] run 3/5: best=21282 elapsed=19.743s gens=2000/2000
+  [kroA100 theta=0.7] run 4/5: best=21282 elapsed=18.9545s gens=2000/2000
+  [kroA100 theta=0.7] run 5/5: best=21282 elapsed=18.7777s gens=2000/2000
+  theta=0.7 best=21282 mean=21282 stdev=0 avgTime(ms)=19380.1 avgBestGen=186.6/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/88.4179% avgMergeFallbacks/gen=0.0103 avgStagnationTriggers=11.4 invalidTours=0/5
+  [kroA100 theta=0.85] run 1/5: best=21282 elapsed=18.5251s gens=2000/2000
+  [kroA100 theta=0.85] run 2/5: best=21282 elapsed=18.7563s gens=2000/2000
+  [kroA100 theta=0.85] run 3/5: best=21282 elapsed=19.8611s gens=2000/2000
+  [kroA100 theta=0.85] run 4/5: best=21282 elapsed=19.9639s gens=2000/2000
+  [kroA100 theta=0.85] run 5/5: best=21282 elapsed=19.8008s gens=2000/2000
+  theta=0.85 best=21282 mean=21282 stdev=0 avgTime(ms)=19381.4 avgBestGen=187.6/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/32.4676% avgMergeFallbacks/gen=0.0059 avgStagnationTriggers=11.6 invalidTours=0/5
+  [kroA100 theta=1.5] run 1/5: best=21282 elapsed=18.8873s gens=2000/2000
+  [kroA100 theta=1.5] run 2/5: best=21282 elapsed=19.8153s gens=2000/2000
+  [kroA100 theta=1.5] run 3/5: best=21282 elapsed=18.5156s gens=2000/2000
+  [kroA100 theta=1.5] run 4/5: best=21282 elapsed=19.1731s gens=2000/2000
+  [kroA100 theta=1.5] run 5/5: best=21282 elapsed=19.2865s gens=2000/2000
+  theta=1.5 best=21282 mean=21282 stdev=0 avgTime(ms)=19135.5 avgBestGen=166/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/0% avgMergeFallbacks/gen=0.0047 avgStagnationTriggers=12 invalidTours=0/5
+
+=== ch150 (n=150) ===
+  [ch150 theta=0.5] run 1/5: best=6549 elapsed=56.4337s gens=2000/2000
+  [ch150 theta=0.5] run 2/5: best=6549 elapsed=57.0204s gens=2000/2000
+  [ch150 theta=0.5] run 3/5: best=6549 elapsed=57.2046s gens=2000/2000
+  [ch150 theta=0.5] run 4/5: best=6549 elapsed=56.1842s gens=2000/2000
+  [ch150 theta=0.5] run 5/5: best=6549 elapsed=53.4515s gens=2000/2000
+  theta=0.5 best=6549 mean=6549 stdev=0 avgTime(ms)=56058.9 avgBestGen=1009.4/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/99.9556% avgMergeFallbacks/gen=0.5102 avgStagnationTriggers=8 invalidTours=0/5
+  [ch150 theta=0.7] run 1/5: best=6549 elapsed=52.1826s gens=2000/2000
+  [ch150 theta=0.7] run 2/5: best=6549 elapsed=53.5229s gens=2000/2000
+  [ch150 theta=0.7] run 3/5: best=6528 elapsed=51.2283s gens=2000/2000
+  [ch150 theta=0.7] run 4/5: best=6549 elapsed=50.3805s gens=2000/2000

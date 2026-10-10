@@ -1,0 +1,7 @@
+method,reference,n_instances,method_better,ties,reference_better,median_diff,mean_diff,W,p_value,p_holm,significance_holm,favours,test
+EM_only,EM_LS,17,0,0,17,97386.25,221907.43,0.0,1.52588e-05,9.15527e-05,***,EM_LS,exact
+LS_only,EM_LS,17,2,7,8,0.00,8.16,9.0,0.0644531,0.128906,ns,no diff,exact
+EM_LS_SE,EM_LS,17,0,2,15,117.45,713.91,0.0,6.10352e-05,0.000244141,***,EM_LS,exact
+EM_only,EM_SE_LS,17,0,0,17,96724.40,221203.37,0.0,1.52588e-05,9.15527e-05,***,EM_SE_LS,exact
+LS_only,EM_SE_LS,17,13,4,0,-103.60,-695.90,0.0,0.000244141,0.000732422,***,LS_only,exact
+EM_LS_SE,EM_SE_LS,17,7,2,8,0.00,9.86,58.5,0.932093,0.932093,ns,no diff,asymptotic

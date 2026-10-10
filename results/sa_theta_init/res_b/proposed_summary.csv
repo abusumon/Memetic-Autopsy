@@ -1,0 +1,4 @@
+dataset,theta,best,mean,stdev,avg_time_ms,avg_best_generation,avg_gens_completed,avg_elim_rate_pass1_pct,avg_elim_rate_pass2_pct
+kroA200,0.5,29616,29689.3,90.1628,84048.8,1500,2000,0,99.9969
+kroA200,0.85,29567,29589.7,25.9679,84610.6,1288,2000,0,8.66811
+kroA200,1.5,29556,29587,35.6791,85648.2,1679.33,2000,0,0

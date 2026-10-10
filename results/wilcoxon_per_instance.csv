@@ -1,0 +1,103 @@
+instance,method,reference,n_pairs,n_nonzero,wins_method,ties,losses_method,median_diff,W,p_value,significance,favours,test,note
+eil51,EM_only,EM_LS,20,20,0,0,20,26.0,0.0,8.74506e-05,***,EM_LS,asymptotic,
+eil51,LS_only,EM_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+eil51,EM_LS_SE,EM_LS,20,1,0,19,1,0.0,0.0,1,ns,no diff,exact,underpowered: only 1 non-zero pair(s)
+eil51,EM_only,EM_SE_LS,20,20,0,0,20,26.0,0.0,8.74506e-05,***,EM_SE_LS,asymptotic,
+eil51,LS_only,EM_SE_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+eil51,EM_LS_SE,EM_SE_LS,20,1,0,19,1,0.0,0.0,1,ns,no diff,exact,underpowered: only 1 non-zero pair(s)
+berlin52,EM_only,EM_LS,20,20,0,0,20,608.5,0.0,1.90735e-06,***,EM_LS,exact,
+berlin52,LS_only,EM_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+berlin52,EM_LS_SE,EM_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+berlin52,EM_only,EM_SE_LS,20,20,0,0,20,608.5,0.0,1.90735e-06,***,EM_SE_LS,exact,
+berlin52,LS_only,EM_SE_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+berlin52,EM_LS_SE,EM_SE_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+st70,EM_only,EM_LS,20,20,0,0,20,56.0,0.0,8.84492e-05,***,EM_LS,asymptotic,
+st70,LS_only,EM_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+st70,EM_LS_SE,EM_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+st70,EM_only,EM_SE_LS,20,20,0,0,20,56.0,0.0,8.84492e-05,***,EM_SE_LS,asymptotic,
+st70,LS_only,EM_SE_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+st70,EM_LS_SE,EM_SE_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+kroA100,EM_only,EM_LS,20,20,0,0,20,11995.0,0.0,1.90735e-06,***,EM_LS,exact,
+kroA100,LS_only,EM_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+kroA100,EM_LS_SE,EM_LS,20,2,0,18,2,0.0,0.0,0.157299,ns,no diff,asymptotic,underpowered: only 2 non-zero pair(s)
+kroA100,EM_only,EM_SE_LS,20,20,0,0,20,11995.0,0.0,1.90735e-06,***,EM_SE_LS,exact,
+kroA100,LS_only,EM_SE_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+kroA100,EM_LS_SE,EM_SE_LS,20,2,0,18,2,0.0,0.0,0.157299,ns,no diff,asymptotic,underpowered: only 2 non-zero pair(s)
+bier127,EM_only,EM_LS,20,20,0,0,20,95979.5,0.0,1.90735e-06,***,EM_LS,exact,
+bier127,LS_only,EM_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+bier127,EM_LS_SE,EM_LS,20,20,0,0,20,808.5,0.0,1.90735e-06,***,EM_LS,exact,
+bier127,EM_only,EM_SE_LS,20,20,0,0,20,95294.0,0.0,1.90735e-06,***,EM_SE_LS,exact,
+bier127,LS_only,EM_SE_LS,20,20,20,0,0,-684.0,0.0,8.83239e-05,***,LS_only,asymptotic,
+bier127,EM_LS_SE,EM_SE_LS,20,20,8,0,12,187.5,53.0,0.0531693,ns,no diff,exact,
+ch150,EM_only,EM_LS,20,20,0,0,20,14161.0,0.0,1.90735e-06,***,EM_LS,exact,
+ch150,LS_only,EM_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+ch150,EM_LS_SE,EM_LS,20,20,0,0,20,116.0,0.0,8.80737e-05,***,EM_LS,asymptotic,
+ch150,EM_only,EM_SE_LS,20,20,0,0,20,14108.0,0.0,1.90735e-06,***,EM_SE_LS,exact,
+ch150,LS_only,EM_SE_LS,20,20,20,0,0,-85.5,0.0,8.80737e-05,***,LS_only,asymptotic,
+ch150,EM_LS_SE,EM_SE_LS,20,20,1,0,19,32.5,9.0,6.29425e-05,***,EM_SE_LS,exact,
+pr152,EM_only,EM_LS,20,20,0,0,20,223772.0,0.0,1.90735e-06,***,EM_LS,exact,
+pr152,LS_only,EM_LS,20,1,0,19,1,0.0,0.0,1,ns,no diff,exact,underpowered: only 1 non-zero pair(s)
+pr152,EM_LS_SE,EM_LS,20,20,0,0,20,789.0,0.0,1.90735e-06,***,EM_LS,exact,
+pr152,EM_only,EM_SE_LS,20,20,0,0,20,223133.0,0.0,8.84492e-05,***,EM_SE_LS,asymptotic,
+pr152,LS_only,EM_SE_LS,20,20,20,0,0,-582.0,0.0,1.90735e-06,***,LS_only,exact,
+pr152,EM_LS_SE,EM_SE_LS,20,19,4,1,15,221.0,37.0,0.0180817,*,EM_SE_LS,exact,
+rat195,EM_only,EM_LS,20,20,0,0,20,7699.0,0.0,8.84492e-05,***,EM_LS,asymptotic,
+rat195,LS_only,EM_LS,20,8,2,12,6,0.0,10.0,0.254306,ns,no diff,asymptotic,
+rat195,EM_LS_SE,EM_LS,20,20,0,0,20,73.0,0.0,8.72023e-05,***,EM_LS,asymptotic,
+rat195,EM_only,EM_SE_LS,20,20,0,0,20,7623.5,0.0,1.90735e-06,***,EM_SE_LS,exact,
+rat195,LS_only,EM_SE_LS,20,20,20,0,0,-75.0,0.0,8.73264e-05,***,LS_only,asymptotic,
+rat195,EM_LS_SE,EM_SE_LS,20,19,10,1,9,-0.5,90.5,0.856211,ns,no diff,asymptotic,
+kroA200,EM_only,EM_LS,20,20,0,0,20,121405.0,0.0,1.90735e-06,***,EM_LS,exact,
+kroA200,LS_only,EM_LS,20,1,0,19,1,0.0,0.0,1,ns,no diff,exact,underpowered: only 1 non-zero pair(s)
+kroA200,EM_LS_SE,EM_LS,20,20,0,0,20,670.0,0.0,1.90735e-06,***,EM_LS,exact,
+kroA200,EM_only,EM_SE_LS,20,20,0,0,20,120664.5,0.0,1.90735e-06,***,EM_SE_LS,exact,
+kroA200,LS_only,EM_SE_LS,20,20,20,0,0,-724.0,0.0,1.90735e-06,***,LS_only,exact,
+kroA200,EM_LS_SE,EM_SE_LS,20,20,10,0,10,6.0,82.0,0.409098,ns,no diff,exact,
+pr226,EM_only,EM_LS,20,20,0,0,20,693456.5,0.0,1.90735e-06,***,EM_LS,exact,
+pr226,LS_only,EM_LS,20,0,0,20,0,0.0,,,n/a,tie,,identical on every run
+pr226,EM_LS_SE,EM_LS,20,20,0,0,20,1064.5,0.0,1.90735e-06,***,EM_LS,exact,
+pr226,EM_only,EM_SE_LS,20,20,0,0,20,692517.5,0.0,1.90735e-06,***,EM_SE_LS,exact,
+pr226,LS_only,EM_SE_LS,20,20,20,0,0,-908.5,0.0,1.90735e-06,***,LS_only,exact,
+pr226,EM_LS_SE,EM_SE_LS,20,20,5,0,15,137.0,60.0,0.0973072,ns,no diff,exact,
+a280,EM_only,EM_LS,20,20,0,0,20,16443.0,0.0,1.90735e-06,***,EM_LS,exact,
+a280,LS_only,EM_LS,20,2,0,18,2,0.0,0.0,0.5,ns,no diff,exact,underpowered: only 2 non-zero pair(s)
+a280,EM_LS_SE,EM_LS,20,20,0,0,20,101.0,0.0,8.7824e-05,***,EM_LS,asymptotic,
+a280,EM_only,EM_SE_LS,20,20,0,0,20,16335.5,0.0,8.84492e-05,***,EM_SE_LS,asymptotic,
+a280,LS_only,EM_SE_LS,20,20,20,0,0,-102.5,0.0,8.80737e-05,***,LS_only,asymptotic,
+a280,EM_LS_SE,EM_SE_LS,20,20,11,0,9,-2.0,103.0,0.940434,ns,no diff,asymptotic,
+pr299,EM_only,EM_LS,20,20,0,0,20,363790.5,0.0,1.90735e-06,***,EM_LS,exact,
+pr299,LS_only,EM_LS,20,20,8,0,12,60.0,55.5,0.0645838,ns,no diff,asymptotic,
+pr299,EM_LS_SE,EM_LS,20,20,0,0,20,1649.5,0.0,1.90735e-06,***,EM_LS,exact,
+pr299,EM_only,EM_SE_LS,20,20,0,0,20,362174.5,0.0,1.90735e-06,***,EM_SE_LS,exact,
+pr299,LS_only,EM_SE_LS,20,20,20,0,0,-1631.0,0.0,8.84492e-05,***,LS_only,asymptotic,
+pr299,EM_LS_SE,EM_SE_LS,20,20,14,0,6,-62.0,65.0,0.142906,ns,no diff,exact,
+lin318,EM_only,EM_LS,20,20,0,0,20,311703.0,0.0,1.90735e-06,***,EM_LS,exact,
+lin318,LS_only,EM_LS,20,20,6,0,14,42.5,57.0,0.0731131,ns,no diff,asymptotic,
+lin318,EM_LS_SE,EM_LS,20,20,0,0,20,1510.0,0.0,1.90735e-06,***,EM_LS,exact,
+lin318,EM_only,EM_SE_LS,20,20,0,0,20,310304.0,0.0,1.90735e-06,***,EM_SE_LS,exact,
+lin318,LS_only,EM_SE_LS,20,20,20,0,0,-1466.0,0.0,8.84492e-05,***,LS_only,asymptotic,
+lin318,EM_LS_SE,EM_SE_LS,20,20,10,0,10,0.0,100.5,0.866574,ns,no diff,asymptotic,
+pr439,EM_only,EM_LS,20,20,0,0,20,1106594.0,0.0,1.90735e-06,***,EM_LS,exact,
+pr439,LS_only,EM_LS,20,20,9,0,11,137.5,84.0,0.452375,ns,no diff,exact,
+pr439,EM_LS_SE,EM_LS,20,20,0,0,20,4828.5,0.0,1.90735e-06,***,EM_LS,exact,
+pr439,EM_only,EM_SE_LS,20,20,0,0,20,1101367.0,0.0,1.90735e-06,***,EM_SE_LS,exact,
+pr439,LS_only,EM_SE_LS,20,20,20,0,0,-4842.0,0.0,1.90735e-06,***,LS_only,exact,
+pr439,EM_LS_SE,EM_SE_LS,20,20,15,0,5,-355.0,56.0,0.0673307,ns,no diff,asymptotic,
+rat575,EM_only,EM_LS,20,20,0,0,20,72643.5,0.0,1.90735e-06,***,EM_LS,exact,
+rat575,LS_only,EM_LS,20,20,7,0,13,5.0,79.0,0.331554,ns,no diff,asymptotic,
+rat575,EM_LS_SE,EM_LS,20,20,0,0,20,87.5,0.0,8.83239e-05,***,EM_LS,asymptotic,
+rat575,EM_only,EM_SE_LS,20,20,0,0,20,72561.0,0.0,1.90735e-06,***,EM_SE_LS,exact,
+rat575,LS_only,EM_SE_LS,20,20,20,0,0,-94.0,0.0,8.84492e-05,***,LS_only,asymptotic,
+rat575,EM_LS_SE,EM_SE_LS,20,20,10,0,10,0.0,101.0,0.881252,ns,no diff,asymptotic,
+u724,EM_only,EM_LS,20,20,0,0,20,605009.0,0.0,1.90735e-06,***,EM_LS,exact,
+u724,LS_only,EM_LS,20,20,11,0,9,-20.5,81.0,0.388376,ns,no diff,exact,
+u724,EM_LS_SE,EM_LS,20,20,1,0,19,614.0,1.0,3.8147e-06,***,EM_LS,exact,
+u724,EM_only,EM_SE_LS,20,20,0,0,20,604288.0,0.0,1.90735e-06,***,EM_SE_LS,exact,
+u724,LS_only,EM_SE_LS,20,20,20,0,0,-617.5,0.0,8.84492e-05,***,LS_only,asymptotic,
+u724,EM_LS_SE,EM_SE_LS,20,20,8,0,12,15.5,101.0,0.898317,ns,no diff,exact,
+rat783,EM_only,EM_LS,20,20,0,0,20,124874.0,0.0,1.90735e-06,***,EM_LS,exact,
+rat783,LS_only,EM_LS,20,20,9,0,11,2.0,102.0,0.91081,ns,no diff,asymptotic,
+rat783,EM_LS_SE,EM_LS,20,20,0,0,20,72.5,0.0,8.84492e-05,***,EM_LS,asymptotic,
+rat783,EM_only,EM_SE_LS,20,20,0,0,20,124773.5,0.0,8.84492e-05,***,EM_SE_LS,asymptotic,
+rat783,LS_only,EM_SE_LS,20,20,20,0,0,-92.0,0.0,8.84492e-05,***,LS_only,asymptotic,
+rat783,EM_LS_SE,EM_SE_LS,20,20,12,0,8,-11.5,85.0,0.455234,ns,no diff,asymptotic,

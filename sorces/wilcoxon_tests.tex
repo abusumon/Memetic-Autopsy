@@ -1,0 +1,53 @@
+% Generated from results/wilcoxon_{per_instance,across_instances}.csv
+% Requires: \usepackage{booktabs,multirow}
+
+\begin{table}[tp]
+  \centering
+  \caption{Wilcoxon signed-rank tests across the 17 TSPLIB instances, paired on per-instance mean tour length over 20 runs. $p_{\text{Holm}}$ is Holm--Bonferroni adjusted over the six comparisons. W/T/L counts instances where the first method is shorter/equal/longer.}
+  \label{tab:wilcoxon-overall}
+  \small
+  \begin{tabular}{llccrrl}
+    \toprule
+    Method & Reference & W/T/L & Median $\Delta$ & $p$ & $p_{\text{Holm}}$ & Favours \\
+    \midrule
+    EM\_only & EM\_LS & 0/0/17 & +97386.25 & $1.53\times 10^{-5}$ & $\mathbf{9.16\times 10^{-5}}$ & \textbf{EM\_LS} \\
+    LS\_only & EM\_LS & 2/7/8 & +0.00 & $0.064$ & $0.129$ & -- \\
+    EM\_LS\_SE & EM\_LS & 0/2/15 & +117.45 & $6.10\times 10^{-5}$ & $\mathbf{0.000}$ & \textbf{EM\_LS} \\
+    EM\_only & EM\_SE\_LS & 0/0/17 & +96724.40 & $1.53\times 10^{-5}$ & $\mathbf{9.16\times 10^{-5}}$ & \textbf{EM\_SE\_LS} \\
+    LS\_only & EM\_SE\_LS & 13/4/0 & -103.60 & $0.000$ & $\mathbf{0.001}$ & \textbf{LS\_only} \\
+    EM\_LS\_SE & EM\_SE\_LS & 7/2/8 & +0.00 & $0.932$ & $0.932$ & -- \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table*}[tp]
+  \centering
+  \caption{Per-instance Wilcoxon signed-rank $p$-values, 20 seed-paired runs per condition. Bold marks $p<0.05$ (uncorrected). \textdagger\ fewer than six non-zero pairs, so $p<0.05$ is unreachable; `--' the two conditions returned an identical tour on all 20 runs, leaving no non-zero difference to rank.}
+  \label{tab:wilcoxon-per-instance}
+  \small
+  \begin{tabular}{lrrrrrr}
+    \toprule
+    \multirow{2}{*}{Instance} & \multicolumn{3}{c}{vs.\ EM\_LS} & \multicolumn{3}{c}{vs.\ EM\_SE\_LS} \\
+    \cmidrule(lr){2-4}\cmidrule(lr){5-7}
+     & EM\_only & LS\_only & EM\_LS\_SE & EM\_only & LS\_only & EM\_LS\_SE \\
+    \midrule
+    eil51 & $\mathbf{8.75\times 10^{-5}}$ & -- & $1.000$\textsuperscript{\textdagger} & $\mathbf{8.75\times 10^{-5}}$ & -- & $1.000$\textsuperscript{\textdagger} \\
+    berlin52 & $\mathbf{1.91\times 10^{-6}}$ & -- & -- & $\mathbf{1.91\times 10^{-6}}$ & -- & -- \\
+    st70 & $\mathbf{8.84\times 10^{-5}}$ & -- & -- & $\mathbf{8.84\times 10^{-5}}$ & -- & -- \\
+    kroA100 & $\mathbf{1.91\times 10^{-6}}$ & -- & $0.157$\textsuperscript{\textdagger} & $\mathbf{1.91\times 10^{-6}}$ & -- & $0.157$\textsuperscript{\textdagger} \\
+    bier127 & $\mathbf{1.91\times 10^{-6}}$ & -- & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{8.83\times 10^{-5}}$ & $0.053$ \\
+    ch150 & $\mathbf{1.91\times 10^{-6}}$ & -- & $\mathbf{8.81\times 10^{-5}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{8.81\times 10^{-5}}$ & $\mathbf{6.29\times 10^{-5}}$ \\
+    pr152 & $\mathbf{1.91\times 10^{-6}}$ & $1.000$\textsuperscript{\textdagger} & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{8.84\times 10^{-5}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{0.018}$ \\
+    rat195 & $\mathbf{8.84\times 10^{-5}}$ & $0.254$ & $\mathbf{8.72\times 10^{-5}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{8.73\times 10^{-5}}$ & $0.856$ \\
+    kroA200 & $\mathbf{1.91\times 10^{-6}}$ & $1.000$\textsuperscript{\textdagger} & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $0.409$ \\
+    pr226 & $\mathbf{1.91\times 10^{-6}}$ & -- & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $0.097$ \\
+    a280 & $\mathbf{1.91\times 10^{-6}}$ & $0.500$\textsuperscript{\textdagger} & $\mathbf{8.78\times 10^{-5}}$ & $\mathbf{8.84\times 10^{-5}}$ & $\mathbf{8.81\times 10^{-5}}$ & $0.940$ \\
+    pr299 & $\mathbf{1.91\times 10^{-6}}$ & $0.065$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{8.84\times 10^{-5}}$ & $0.143$ \\
+    lin318 & $\mathbf{1.91\times 10^{-6}}$ & $0.073$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{8.84\times 10^{-5}}$ & $0.867$ \\
+    pr439 & $\mathbf{1.91\times 10^{-6}}$ & $0.452$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $0.067$ \\
+    rat575 & $\mathbf{1.91\times 10^{-6}}$ & $0.332$ & $\mathbf{8.83\times 10^{-5}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{8.84\times 10^{-5}}$ & $0.881$ \\
+    u724 & $\mathbf{1.91\times 10^{-6}}$ & $0.388$ & $\mathbf{3.81\times 10^{-6}}$ & $\mathbf{1.91\times 10^{-6}}$ & $\mathbf{8.84\times 10^{-5}}$ & $0.898$ \\
+    rat783 & $\mathbf{1.91\times 10^{-6}}$ & $0.911$ & $\mathbf{8.84\times 10^{-5}}$ & $\mathbf{8.84\times 10^{-5}}$ & $\mathbf{8.84\times 10^{-5}}$ & $0.455$ \\
+    \bottomrule
+  \end{tabular}
+\end{table*}

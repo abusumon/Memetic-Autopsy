@@ -1,0 +1,4 @@
+theta,run,best,elapsed_ms,best_generation,generations_completed,eliminated_pass1,eliminated_pass2,elim_rate_pass1_pct,elim_rate_pass2_pct
+1.5,0,6528,70925.1,1715,2000,0,0,0,0
+1.5,1,6528,70734.4,1717,2000,0,0,0,0
+1.5,2,6528,73853.3,1545,2000,0,0,0,0

@@ -1,0 +1,24 @@
+Proposed algorithm config: runs=5 generations=2000 pop=300 elite=60 mutationRate=0.05 crossoverRate=0.8 essentialRate=0.1 sa.iterations=100 sa.T0=0.025 sa.gamma=0.99 timeBudgetMin=4 (per single run) stagnationLimit=150 reheatFraction=0.5 restartFraction=0.1
+Thetas swept: 0.7 0.85 1.5 
+
+=== ch150 (n=150) ===
+  [ch150 theta=0.7] run 1/5: best=6549 elapsed=55.4327s gens=2000/2000
+  [ch150 theta=0.7] run 2/5: best=6549 elapsed=56.5873s gens=2000/2000
+  [ch150 theta=0.7] run 3/5: best=6528 elapsed=55.2177s gens=2000/2000
+  [ch150 theta=0.7] run 4/5: best=6549 elapsed=55.3862s gens=2000/2000
+  [ch150 theta=0.7] run 5/5: best=6549 elapsed=51.6589s gens=2000/2000
+  theta=0.7 best=6528 mean=6544.8 stdev=9.39149 avgTime(ms)=54856.6 avgBestGen=1312/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/90.6471% avgMergeFallbacks/gen=0.4899 avgStagnationTriggers=7.6 invalidTours=0/5
+  [ch150 theta=0.85] run 1/5: best=6549 elapsed=55.7438s gens=2000/2000
+  [ch150 theta=0.85] run 2/5: best=6528 elapsed=63.6861s gens=2000/2000
+  [ch150 theta=0.85] run 3/5: best=6549 elapsed=65.2306s gens=2000/2000
+  [ch150 theta=0.85] run 4/5: best=6528 elapsed=62.9381s gens=2000/2000
+  [ch150 theta=0.85] run 5/5: best=6549 elapsed=60.6984s gens=2000/2000
+  theta=0.85 best=6528 mean=6540.6 stdev=11.5022 avgTime(ms)=61659.4 avgBestGen=1345.2/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/19.0245% avgMergeFallbacks/gen=0.5504 avgStagnationTriggers=7.2 invalidTours=0/5
+  [ch150 theta=1.5] run 1/5: best=6549 elapsed=53.8056s gens=2000/2000
+  [ch150 theta=1.5] run 2/5: best=6549 elapsed=53.0184s gens=2000/2000
+  [ch150 theta=1.5] run 3/5: best=6549 elapsed=52.7335s gens=2000/2000
+  [ch150 theta=1.5] run 4/5: best=6549 elapsed=55.2076s gens=2000/2000
+  [ch150 theta=1.5] run 5/5: best=6549 elapsed=52.7991s gens=2000/2000
+  theta=1.5 best=6549 mean=6549 stdev=0 avgTime(ms)=53512.8 avgBestGen=815.2/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/0% avgMergeFallbacks/gen=0.2742 avgStagnationTriggers=8.6 invalidTours=0/5
+
+Results written to res_a/proposed_summary.csv (plus per-dataset *_proposed_runs.csv)

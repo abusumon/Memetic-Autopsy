@@ -1,0 +1,2 @@
+dataset,theta,best,mean,stdev,avg_time_ms,avg_best_generation,avg_gens_completed,avg_elim_rate_pass1_pct,avg_elim_rate_pass2_pct
+pr439,0.85,111239,114693,4576.09,888339,1148.7,1192,0,2.55137

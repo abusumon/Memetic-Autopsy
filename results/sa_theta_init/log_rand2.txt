@@ -1,0 +1,10 @@
+Proposed algorithm config: runs=3 generations=2000 pop=300 elite=60 mutationRate=0.05 crossoverRate=0.8 essentialRate=0.1 sa.iterations=100 sa.T0=0.025 sa.gamma=0.99 timeBudgetMin=4 (per single run) stagnationLimit=150 reheatFraction=0.5 restartFraction=0.1
+Thetas swept: 1.5 
+
+=== ch150 (n=150) ===
+  [ch150 theta=1.5] run 1/3: best=6528 elapsed=70.9251s gens=2000/2000
+  [ch150 theta=1.5] run 2/3: best=6528 elapsed=70.7344s gens=2000/2000
+  [ch150 theta=1.5] run 3/3: best=6528 elapsed=73.8533s gens=2000/2000
+  theta=1.5 best=6528 mean=6528 stdev=0 avgTime(ms)=71837.6 avgBestGen=1659/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/0% avgMergeFallbacks/gen=1.9035 avgStagnationTriggers=4.33333 invalidTours=0/3
+
+Results written to res_rand2/proposed_summary.csv (plus per-dataset *_proposed_runs.csv)

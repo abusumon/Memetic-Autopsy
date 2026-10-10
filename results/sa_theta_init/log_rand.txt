@@ -1,0 +1,19 @@
+Proposed algorithm config: runs=3 generations=2000 pop=300 elite=60 mutationRate=0.05 crossoverRate=0.8 essentialRate=0.1 sa.iterations=100 sa.T0=0.025 sa.gamma=0.99 timeBudgetMin=4 (per single run) stagnationLimit=150 reheatFraction=0.5 restartFraction=0.1
+Thetas swept: 0.85 1.5 
+
+=== kroA100 (n=100) ===
+  [kroA100 theta=0.85] run 1/3: best=21282 elapsed=24.0074s gens=2000/2000
+  [kroA100 theta=0.85] run 2/3: best=21282 elapsed=24.1845s gens=2000/2000
+  [kroA100 theta=0.85] run 3/3: best=21282 elapsed=22.9519s gens=2000/2000
+  theta=0.85 best=21282 mean=21282 stdev=0 avgTime(ms)=23714.6 avgBestGen=292/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/30.1956% avgMergeFallbacks/gen=0.124833 avgStagnationTriggers=11 invalidTours=0/3
+  [kroA100 theta=1.5] run 1/3: best=21282 elapsed=23.2249s gens=2000/2000
+  [kroA100 theta=1.5] run 2/3: best=21282 elapsed=23.3366s gens=2000/2000
+  [kroA100 theta=1.5] run 3/3: best=21282 elapsed=23.4899s gens=2000/2000
+  theta=1.5 best=21282 mean=21282 stdev=0 avgTime(ms)=23350.5 avgBestGen=298/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/0% avgMergeFallbacks/gen=0.103833 avgStagnationTriggers=11 invalidTours=0/3
+
+=== ch150 (n=150) ===
+  [ch150 theta=0.85] run 1/3: best=6571 elapsed=76.329s gens=2000/2000
+  [ch150 theta=0.85] run 2/3: best=6572 elapsed=74.5715s gens=2000/2000
+  [ch150 theta=0.85] run 3/3: best=6549 elapsed=72.6096s gens=2000/2000
+  theta=0.85 best=6549 mean=6564 stdev=13 avgTime(ms)=74503.4 avgBestGen=1904.67/2000 avgGensCompleted=2000 elimRate[pass1/pass2]=0%/10.9683% avgMergeFallbacks/gen=2.3965 avgStagnationTriggers=2 invalidTours=0/3
+  [ch150 theta=1.5] run 1/3: best=6528 elapsed=68.0957s gens=2000/2000
