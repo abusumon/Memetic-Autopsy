@@ -23,7 +23,7 @@ Which parts of a memetic GA for the Travelling Salesman Problem actually earn th
 | `analysis/` | Python scripts for the statistics and summary tables (need `python3`, `scipy`) |
 | `results/` | Raw per-run CSVs and logs, plus the original ablation master table |
 | `data/` | TSPLIB instances used |
-| `paper_build/`, `original_uploaded_sources/` | Paper build scripts and additional source files |
+| `sources/` | Additional source files |
 
 ## Quick start
 
